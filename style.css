@@ -44,7 +44,6 @@ Header .container {
     height: 90%;
     margin-top: 0px;
     object-fit: cover;
-    border: 
     border-radius: 50%;
 
 }
@@ -81,7 +80,7 @@ Header .nav a {
 
 section {
     background-color: white;
-    margin-top: 5%;
+    margin-top: 2.5%;
 }
 
 section #About-Me {
@@ -1842,7 +1841,7 @@ section .Projects-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    column-gap: 10%;
+    column-gap: 15%;
 }
 
 .Projects-1 .img-container {
@@ -1884,6 +1883,10 @@ section .Projects-1 {
     transition: 1s ease;
     }
 
+
+#second_project {
+  margin-top: 15%;
+}
 
 
 
