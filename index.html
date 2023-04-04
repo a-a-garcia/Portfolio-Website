@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Telugu&family=Silkscreen&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eac69a49f0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Anthony A. Garcia</title>
+</head>
+<body>
+  <!--Navigation-->
+  <Header>
+    <div class="container">
+
+      <div class="logo">
+        <h3>
+          Anthony A. Garcia
+          </h3>
+      </div>  
+      
+      <div class="logo-container">
+        <img src="./images/navbarphoto.png" alt="">
+      </div>
+      
+      <ul class="nav">
+        <li><a href="#About-Me">About Me /</a></li>
+        <li><a href="#Projects"> Projects /</a></li>
+        <li><a href="#Skills">Skills /</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+      
+  </Header>
+
+  <!--Mission Statement-->
+
+  <section class="missionsection">
+    <div class="container">
+      <div id="About-Me">
+        <h1>About Me //</h1><br><br>
+      </div>
+      <div class="missionstmt">
+        
+        <div class="maintext">
+        <h2>Hi! I'm Anthony, and I'm a beginner software developer.</h2><br>
+          <p>After receiving my bachelors at Univeristy of Nevada, Las Vegas in economics, I stepped into the world of mortgage lending. However, I decided to leverage the interest I've always had in technology and dived into the world of software!<br><br> With the skills I've garnered from my previous career, including project and process management, client service, and interpersonal communication, I endeavor to create technologies that solve problems and inspire.
+          <br><br> I've been a developer for {insert Javascript function} months.</p>
+        </div>
+      
+        <div class="img-container">
+          <img src="./images/AboutmePhoto.png"  alt="">
+          <a href="#" id="clickphoto" class="animated-button1" input type="button" onclick="changeImage()" value="Change">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Click Me!
+          </a>
+          <script>
+            function changeImage() {
+                var image = document.getElementById('clickphoto');
+                if (image.src.match("E:\WORK STUFF\Portfolio Website\images\AboutmePhoto.png")) {
+                    image.src = "E:\WORK STUFF\Portfolio Website\images\PhotoOfMe.jpg";
+                }
+                else {
+                    image.src = "E:\WORK STUFF\Portfolio Website\images\AboutmePhoto.png";
+                }
+            }
+            </script>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!--Projects-->
+  <section class="projects">
+    <div class="container">
+      <div id="Projects">
+        <h1>Projects //</h1><br><br>
+      </div>
+      <div class="Projects-1">
+        
+        <div class="img-container grow">
+          <a href="https://a-a-garcia.github.io/gameclub/"><img class="underneath" src="./images/gameclubsnip2.png"  alt=""></a>
+          <a href="https://a-a-garcia.github.io/gameclub/"><img class="over" src="./images/gameclubsnip1.png"></a>
+        </div>
+
+        <div>
+          <h2>Responsive Club Website</h2> <br><br><p>A club group page that dynamically responds as you adjust the size of your screen! Created using HTML/CSS.​</p>  
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!--Skills-->
+
+  <section class="Skillsclass">
+    <div class="container">
+      <div class="Skills">
+        <h2>Skills //</h2>
+      </div>
+
+      <div class="skilliconcontainer"></div>
+
+        <div class="icon-container">
+          <i class="fa-brands fa-html5"></i><p>Experience: 3 Months, 0 Years</p>
+        </div>
+
+        <div class="icon-container">
+          <i class="fab fa-css3-alt"></i><p>Experience: 3 Months, 0 Years</p>
+        </div>
+
+        <div class="icon-container">
+          <i class="fab fa-js"></i><p>Experience: 1 Months, 0 Years</p>
+        </div>
+
+        <div class="icon-container">
+          <i class="fab fa-git"></i><p>Experience: 1 Months, 0 Years</p>
+        </div>
+
+        <div class="icon-container">
+          <i class="fab fa-github"></i><p>Experience: 1 Months, 0 Years</p>
+        </div>
+
+        <div class="icon-container">
+          <i class="fas fa-terminal"></i><p>Experience: 1 Months, 0 Years</p>
+        </div>
+
+
+    </div>
+
+  </section>
+
+  <footer>
+    <div id="Contact">
+      <h2>Contact //</h2><br><br>
+    </div>
+    <div>
+        <h3>Contact Me!</h2>
+        <h5>angarce01@gmail.com</h5>
+        <h5>702-241-7088</h5>
+    </div>
+</footer>
+    
+</body>
+</html>
